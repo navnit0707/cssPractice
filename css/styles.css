@@ -1,3 +1,40 @@
+/* universal
+___________________________________*/
+body{
+  color: #343434;
+}
 img {
   width: 300px;
+}
+
+/* Profile
+--------------------------------------*/
+header{
+  background-color: #2f3061;
+  color:#f7f7f7
+}
+
+/* Project
+---------------------------------------*/
+.project{
+  background-color: #f7f7f7;
+}
+
+/* Work Experience
+--------------------------------------*/
+.work-experience{
+  background-color: #ffe66d;
+}
+
+/* Education
+----------------------------------------*/
+.education{
+  background-color: blueviolet;
+}
+
+/* Contact
+----------------------------------------*/
+footer{
+  background-color: #343434;
+  color: white;
 }
