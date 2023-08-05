@@ -1,5 +1,8 @@
+/* :root is used to select the root , because html is an element and it loads
+    to the node and removed
+*/
 :root {
-  --lime: #a4ffa2;
+  --lime: #a4ffa2; /* --name is used to decalre a variable  */
   --magenta: #f47dda;
   --magenta50: #f47dda80;
   --white: #ffffff;
@@ -10,6 +13,8 @@
 }
 html {
   box-sizing: border-box;
+  /* box-sizing : border box makes sure that when we sets the padding and margin 
+  the content not over flow  */
 }
 
 *,
@@ -18,6 +23,8 @@ html {
   box-sizing: inherit;
 }
 .lime {
+  /* var() is used to use the variable we declared we can use that variable by writing 
+    --name inside the parameter of var() */
   background-color: var(--lime);
 }
 .magenta {
@@ -47,6 +54,7 @@ html {
   gap: 1rem;
 }
 .colors > * {
+  /*  .name>*  means we are selecting everything that is direct decendent of coloros */
   width: 3rem;
   height: 3rem;
 }
